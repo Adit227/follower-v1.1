@@ -12,13 +12,17 @@ from Data.TaigSystem import *
 '''
 
 
-		Author : Njank Yuti
+		Author : Mr_07Rx
 
-			https://youtube.com/NjankSoekamti
-			https://facebook.com/njnk.xnxx
-			https://instagram.com/n74nk420
-			https://github.com/N74NK
-			
+                        Ini Gw yang Buat Banget By Mr_07Rx
+                        ====================================
+			https://facebook.com/Roblox Adtu
+			https://instagram.com/Aditgokil2048
+			https://github.com/Adit227
+			====================================
+                        Maaf Gw Terlalu Ngegas Maafin Bentar
+                        Lagi Puasaloh 
+
 	Mengedit nama author itu sangat tidak epic bro
 	Bantu gua kembangin tool ini dengan memberikan saran
 
@@ -56,11 +60,11 @@ def main():
 def login():
 	Taig.logo()
 	try:
-		print(f'{w}Masukan username dan password instagram Lu\nLaporkan error ke Instagram {y}@n74nk420\n')
+		print(f'{w}Masukan username dan password instagram Lu\nLaporkan error ke Instagram {y}@aditgokil2048\n')
 		nyUSR = input(f' {P}>{w} Username: ')
 		nyPWD = stdiomask.getpass(prompt=f' {P}>{w} Password: ')
 	except KeyboardInterrupt:
-		exit(f' {P}> {w}Program diberhentikan paksa \n')
+		exit(f' {P}> {w}Program diberhentikan Secara paksa \n')
 	with open('Data/.biskuit.log', 'w') as nyb:
 		api = InstagramAPI(nyUSR, nyPWD)
 		api.login()
@@ -110,12 +114,12 @@ def nyL(nyUSR,nyPWD):
 		for i in followings:
 			if i not in followers:
 				tt=tt+1
-		print(f" {R}>{w} Kagak follback Lu: {str(tt)}")
+		print(f" {R}>{w} Kagak follback Lu Dongo: {str(tt)}")
 		tt = 0
 		for i in followers:
 			if i not in followings:
 				tt=tt+1
-		print(f' {R}>{w} Kagak Lu follback: {str(tt)} \n')
+		print(f' {R}>{w} Kagak Lu follback Dongo: {str(tt)} \n')
 		Taig.menu()
 		nyIi = input(' >> ')
 	except KeyboardInterrupt:
@@ -183,7 +187,7 @@ def nyL(nyUSR,nyPWD):
 			tag = input(f'{w}Hashtag: ')
 		except KeyboardInterrupt:
 			main()
-		print(f'{w}Bot like dijalankan\n')
+		print(f'{w}Bot like Sedang dijalankan Mohon Bersabar\n')
 		api.tagFeed(tag)
 		x = api.LastJson 
 		nyCn = 0
@@ -261,7 +265,7 @@ def nyL(nyUSR,nyPWD):
 	
 	elif (nyIi == 'r') or (nyIi == 'R'):
 		Taig.logo()
-		print(f'{w}Bantu saya mengembangkan tool ini\nTulis masalah yg ditemukan\n')
+		print(f'{w}Bantu saya mengembangkan tool ini ya anjing\nTulis masalah yg ditemukan\n')
 		try:
 			x = input(f'{P} >> {w}')
 			api.searchUsername('n74nk420')
@@ -280,7 +284,7 @@ def nyL(nyUSR,nyPWD):
 			NYk = input(f'{w}Komentar: ')
 		except KeyboardInterrupt:
 			main()
-		print(f'{w}Bot komentar dijalankan\n')
+		print(f'{w}Bot komentar Sedang dijalankan\n')
 		api.tagFeed(tag)
 		x = api.LastJson 
 		nyCn = 0
@@ -296,7 +300,7 @@ def nyL(nyUSR,nyPWD):
 					break
 		except KeyboardInterrupt:
 			pass
-		print(f'\n {P}>{w} Total: {str(nyCn)} post suskses dikomen')
+		print(f'\n {P}>{w} Total: {str(nyCn)} post suskses dikomen bangsat')
 		input(f' {P}>{w} Back{P} ');main()
 	
 	elif (nyIi == '8') or (nyIi == '08'):
@@ -306,7 +310,7 @@ def nyL(nyUSR,nyPWD):
 			NYk = input(f'{w}Komentar: ')
 		except KeyboardInterrupt:
 			main()
-		print(f'{w}Bot komentar dijalankan\n')
+		print(f'{w}Bot komentar dijalankan Anjing\n')
 		api.searchUsername(NYu)
 		NYx = api.LastJson
 		NYz = NYx.get("user")["pk"]
@@ -336,7 +340,7 @@ def nyL(nyUSR,nyPWD):
 	elif nyIi == '10':
 		Taig.logo()
 		NYk = input(f'{w}Komentar: ')
-		print(f'{w}Bot komentar popular feed dijalankan\n')
+		print(f'{w}Bot komentar popular feed dijalankan Bangsat\n')
 		api.getPopularFeed()
 		x = api.LastJson 
 		nyCn = 0
@@ -355,7 +359,7 @@ def nyL(nyUSR,nyPWD):
 					pass
 		except KeyboardInterrupt:
 			pass
-		print(f'\n {P}>{w} Total: {str(nyCn)} post suskses dikomen')
+		print(f'\n {P}>{w} Total: {str(nyCn)} post suskses dikomen Kontol')
 		input(f' {P}>{w} Back{P} ');main()
 	
 	elif (nyIi == 'c') or (nyIi == 'C'):
